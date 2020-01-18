@@ -1,4 +1,15 @@
 /*
+ * This file is taken from "3D Graphics with OpenGL by Examples" of yet another insignificat programming notes. (https://www.ntu.edu.sg/home/ehchua/programming/opengl/CG_examples.html).
+ * And they took it from Nehe OpenGL Tutorial Lesson #5 (http://nehe.gamedev.net/)
+ * 
+ * And all rights about the original source belongs to the original author
+ *
+ * I modified this example so that it can be compiled with Ubuntu 18.04.
+ *
+ * 2020/01/20 Koki Shinjo
+ */
+
+/*
  * OGL02Animation.cpp: 3D Shapes with animation
  */
 #include <GL/gl.h>

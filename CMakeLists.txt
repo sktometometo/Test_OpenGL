@@ -34,5 +34,9 @@ target_link_libraries(sample_07 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
 add_executable(sample_08 src/sample_08.cpp)
 target_link_libraries(sample_08 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
 
+# 3d examples
+add_executable(sample3d_01 src/sample3d_01.cpp)
+target_link_libraries(sample3d_01 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
+
 add_executable(sample3d_02 src/sample3d_02.cpp)
 target_link_libraries(sample3d_02 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
